@@ -1,9 +1,40 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
+p{
+  font-weight: bold;
+  font-size: 100%;
+  font-style: italic;
+  color: #800080;
+  font-family:'Courier New', Courier, monospace;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+footer {
+  font-weight: bold;
+  font-size: 120%;
+  font-style: italic;
+  color:antiquewhite;
+  font-family:'Courier New', Courier, monospace
+  text-align: center;
+
+}
+
+body{
+  background-color: #f5cfc0;
+  border-bottom-color:aqua;
+  border-style: inset;
+  }
+
+  h1 {
+    color: blue;
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  p {
+    font-weight: bold;
+    font-size: 120%;
+    font-style: italic;
+    color:#800080;
+    font-family:'Courier New', Courier, monospace
   }
