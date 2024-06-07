@@ -1,0 +1,38 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+p{
+    font-weight: bold;
+    font-size: 100%;
+    font-style: italic;
+    color: #800080;
+    font-family:'Courier New', Courier, monospace;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  footer {
+    font-weight: bold;
+    font-size: 120%;
+    font-style: italic;
+    color:antiquewhite;
+    font-family:'Courier New', Courier, monospace
+  }
+  
+  body{
+    background-color: #eca5fd;
+    border-bottom-color:dotted rgb(78, 173, 202);
+    border:dotted 20px red;
+    }
+  
+    h2 {
+      color: rgb(78, 173, 202);
+      font-size: 200%;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  
+    p {
+      font-weight: bold;
+      font-size: 120%;
+      font-style: italic;
+      color:#000000;
+      font-family:'Courier New', Courier, monospace
+    }
