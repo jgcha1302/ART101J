@@ -3,21 +3,33 @@
 * Created: 7 June 2024 
 *License: Public Domain
 */
-// add button to challenge section
 
-// Sorts the characters of a string in alphabetical order.
-function sortString(inputString) {
-    // We have to convert our string to an array and back again to sort it
-    return inputString.split('').sort().join('');
-  }
+function sortingHat(str) {
+    var length = str.length
+    var mod = length % 4;
+    if (mod == 0) {
+        return "Gryffindor";
+    }
+    else if (mod == 1) {
+        return "Ravenclaw";
+    }
+    else if (mod == 2) {
+        return "Slytherin";
+    }
+    else if (mod == 3) {
+        return "Hufflepuff";
+    }
+    else {
+        return "Oh boy! Secret Option 5!";
+    }
 
-  // click listener for button
-$("#submit").click(function(){
-    // get value of input field
-    const userName = $("#user-name").val();
-    // now let's sort it
-    userNameSorted = sortString(userName);
-    // append a new div to our output div
-    $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
-});
+}
+
+var clickButton = document.getElementById("button")
+clickButton.addEventListener("click", function(){
+    var name = document.getElementById("input").value;
+    var house = sortingHat(name);
+    newText = "<p>The Sorting Hat has sorted you into" + house + "</p>";
+    document.getElementById("output").innerHTML = newText;
+})
 
