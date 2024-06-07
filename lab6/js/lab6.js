@@ -3,7 +3,7 @@
 * Created: 26 May 
 *License: Public Domain
 */
-
+myTransport =["Ford Taurus", "bike", "rides from friends", "walk"]
 
 // Define Variables
 myMainRide = {
