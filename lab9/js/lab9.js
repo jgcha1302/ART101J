@@ -1,24 +1,19 @@
 /*
 * Author: Joyce Cha <jgcha@ucsc.edu>
-* Created: 26 May 
+* Created: 7 June 2024 
 *License: Public Domain
 */
-myTransport = ["New Flyer", "metro", "rides from friends", "walk"]
+// add button to challenge section
+$("#challenge").append("<button id='button-challenge'>Make Special</button>");
 
-// Define Variables
-myMainRide = {
-    make: "New Flyer",
-    model: "D40LF",
-    color: "white",
-    year: 1998,
-    //defen a function and value of the year within your object 
-    age: function() {
-        return 2024 - this.year;
-    }
-}
+// add a click listener to the challenge button
+$("button-challenge").click(function(){
+    // now add (or subtract) the "special" class to the section
+    $("#challenge").toggleClass("special");
+});
 
-// output
-document.writeln("Kind of transportation I use:", myTransport, "</br");
-//write an object
-document.writeln("My Main Ride: <pre>",
-    JSON.stringify(myMainRide, null, '\t'), "</pre>");
+$("#problems").append("<button id='button-problems'>Make Special</button>");
+
+$("#button-problems").click(function(){
+    $('#problems')
+})
