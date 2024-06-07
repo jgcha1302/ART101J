@@ -9,7 +9,7 @@ function sortUserName() {
     console.log("userName =", userName);
     //split string to array
     var nameArray = userName.split('');
-    console.log("nameArray");
+    console.log("nameArray =", nameArray);
     //sort the array
     var nameArraySort = nameArray.sort();
     console.log("nameArray =", nameArraySort);
@@ -22,4 +22,4 @@ function sortUserName() {
 //output 
 document.written("Oh hey, I've fixed your name:",
     sortUsername(), "</br>");
-    
+
