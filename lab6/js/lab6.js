@@ -16,7 +16,9 @@ myMainRide = {
         return 2024 - this.year;
     }
 }
+
 // output
 document.writeln("Kind of transportation I use:", myTransport, "</br");
+//write an object
 document.writeln("My Main Ride : <pre>",
     JSON.stringify(myMainRide, null, '\t'), "</pre>");
