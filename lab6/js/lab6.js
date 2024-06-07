@@ -3,16 +3,16 @@
 * Created: 26 May 
 *License: Public Domain
 */
-myTransport =["Ford Taurus", "bike", "rides from friends", "walk"]
+myTransport = ["New Flyer", "metro", "rides from friends", "walk"]
 
 // Define Variables
 myMainRide = {
-    make : "New Flyer",
-    model : "D40LF",
-    color : "white",
-    year : 1998,
+    make: "New Flyer",
+    model: "D40LF",
+    color: "white",
+    year: 1998,
     //defen a function and value of the year within your object 
-    age : function() {
+    age: function() {
         return 2024 - this.year;
     }
 }
@@ -20,5 +20,5 @@ myMainRide = {
 // output
 document.writeln("Kind of transportation I use:", myTransport, "</br");
 //write an object
-document.writeln("My Main Ride : <pre>",
+document.writeln("My Main Ride: <pre>",
     JSON.stringify(myMainRide, null, '\t'), "</pre>");
