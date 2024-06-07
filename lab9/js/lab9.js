@@ -18,7 +18,9 @@ $("#problems").append("<button id='button-problems'>Make Special</button>");
 $("#button-problems").click(function(){
     $('#problems').toggleClass("special");
     console.log("clicked problems");
-})
+});
+
+$("#results").append("<button id='button-results'>Make Special</button>)")
 
 $("#button-results").click(function(){
     $("#results").toggleClass("special");
